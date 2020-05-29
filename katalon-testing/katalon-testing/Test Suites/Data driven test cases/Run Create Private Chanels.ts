@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Run Create Private Chanels</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>03adae2e-ca57-41aa-b462-7566f36ee7b1</testSuiteGuid>
+   <testCaseLink>
+      <guid>bb70987a-b7d0-47a6-8e15-b9c311c9f17b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create Private Chanels</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9f6ee2ef-0b95-4618-a628-d74f82dffea2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Private Chanels</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>isPublic</value>
+         <variableId>3597a9d6-8edb-4d47-bc5d-cb7ba1be591e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>5233b1bf-8213-4de2-8b72-4c0124ae3e7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>purpose</value>
+         <variableId>7a70a624-d70a-4625-b1e2-1cc987a87f3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>header</value>
+         <variableId>ad9a5423-7a45-4e39-86e9-e4a7a1ff2040</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
