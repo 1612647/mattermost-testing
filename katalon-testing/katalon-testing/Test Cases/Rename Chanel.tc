@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Rename Chanel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7037394-8937-4480-97d8-37ea60c894b4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6956e317-7dd4-4361-82b6-9d965107a4a0</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
