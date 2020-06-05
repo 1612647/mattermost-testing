@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Page_ RenameChanel/span_123'), 0)
 
@@ -24,9 +24,11 @@ WebUI.click(findTestObject('Page_ RenameChanel/span_123'))
 
 WebUI.click(findTestObject('Page_ RenameChanel/span_Rename Channel'))
 
-WebUI.setText(findTestObject('Page_ RenameChanel/input_Display Name_display_name'), name)
+WebUI.setText(findTestObject('Page_ RenameChanel/input_Display Name_display_name'), '')
 
 WebUI.click(findTestObject('Page_ RenameChanel/span_Save'))
+
+Thread.sleep(1000)
 
 WebUI.verifyElementNotPresent(findTestObject('Page_ RenameChanel/label_This field is required'), 0)
 

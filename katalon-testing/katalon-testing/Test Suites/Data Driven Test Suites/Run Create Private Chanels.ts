@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Run Create Public Chanels</name>
+   <name>Run Create Private Chanels</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,44 +9,44 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>c438e9f7-8b18-472a-b8e7-f087f03826f7</testSuiteGuid>
+   <testSuiteGuid>03adae2e-ca57-41aa-b462-7566f36ee7b1</testSuiteGuid>
    <testCaseLink>
-      <guid>9a3d60e6-1c51-4eba-8f39-51e35ed479ed</guid>
+      <guid>bb70987a-b7d0-47a6-8e15-b9c311c9f17b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Public Chanels</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/Create Private Chanels</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>fda261d6-1b47-4471-a51a-fe1c200a03d1</id>
+         <id>9f6ee2ef-0b95-4618-a628-d74f82dffea2</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Public Chanels</testDataId>
+         <testDataId>Data Files/Private Chanels</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>fda261d6-1b47-4471-a51a-fe1c200a03d1</testDataLinkId>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>isPublic</value>
-         <variableId>0f086a8d-71a0-497e-b991-3bd5b62dfefd</variableId>
+         <variableId>3597a9d6-8edb-4d47-bc5d-cb7ba1be591e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fda261d6-1b47-4471-a51a-fe1c200a03d1</testDataLinkId>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
-         <variableId>685a9311-0453-4b35-b145-33e491d29f82</variableId>
+         <variableId>5233b1bf-8213-4de2-8b72-4c0124ae3e7f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fda261d6-1b47-4471-a51a-fe1c200a03d1</testDataLinkId>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>purpose</value>
-         <variableId>a3a35dfe-73f2-40de-87b5-cafafbf0809c</variableId>
+         <variableId>7a70a624-d70a-4625-b1e2-1cc987a87f3e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fda261d6-1b47-4471-a51a-fe1c200a03d1</testDataLinkId>
+         <testDataLinkId>9f6ee2ef-0b95-4618-a628-d74f82dffea2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>header</value>
-         <variableId>99c940de-e35d-4358-8c99-d29198e3f175</variableId>
+         <variableId>ad9a5423-7a45-4e39-86e9-e4a7a1ff2040</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

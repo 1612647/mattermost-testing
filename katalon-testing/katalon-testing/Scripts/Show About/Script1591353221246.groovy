@@ -14,25 +14,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_Craate_New_Team/div_'), 0)
+WebUI.scrollToElement(findTestObject('Page_ About_Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'), 0)
 
-WebUI.click(findTestObject('Page_Craate_New_Team/div_'))
+WebUI.click(findTestObject('Page_ About_Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.setText(findTestObject('Page_Craate_New_Team/input_Team Name_teamNameInput'), name)
+WebUI.click(findTestObject('Page_ About_Mattermost/span_About Mattermost'))
 
-WebUI.click(findTestObject('Page_Craate_New_Team/span_Next'))
-
-WebUI.verifyElementNotPresent(findTestObject('Page_Craate_New_Team/label_This field is required_1'), 1)
-
-WebUI.setText(findTestObject('Page_Craate_New_Team/input_httplocalhost8065_teamURLInput'), url)
-
-WebUI.click(findTestObject('Page_Craate_New_Team/span_Finish'))
-
-WebUI.verifyElementNotPresent(findTestObject('Page_Craate_New_Team/label_This field is required_2'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_ About_Mattermost/div_CloseAbout MattermostMattermost Team Ed_b1a905'), 
+    1)
 
 WebUI.closeBrowser()
 
