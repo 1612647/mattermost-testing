@@ -16,20 +16,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8065/login')
-
-WebUI.setText(findTestObject('null'), 'user-1')
-
-WebUI.setEncryptedText(findTestObject('null'), 
-    'MZgS3bkacIma+dCTaK/maA==')
-
-WebUI.click(findTestObject('null'))
+WebUI.scrollToElement(findTestObject('Page_ Download_App/button_user-1_style--none sidebar-header-dr_eabf2e'), 0)
 
 WebUI.click(findTestObject('Page_ Download_App/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
 WebUI.click(findTestObject('Page_ Download_App/a_Download Apps'))
+
+Thread.sleep(1000)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.verifyEqual(WebUI.getUrl(), "https://mattermost.com/download/#mattermostApps")
 
 WebUI.closeBrowser()
 
