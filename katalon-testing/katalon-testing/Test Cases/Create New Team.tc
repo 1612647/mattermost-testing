@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Team</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8697418-346a-4564-b69f-42515ec2c198</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfa34ddb-dcfd-42da-a957-3a3b955fd635</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97ff7a41-f1c8-4042-bee4-fe30746699f6</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
