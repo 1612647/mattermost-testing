@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Slash Commands</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9ae720e-64e2-46b0-bbe8-ea604bd929b3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ebdc561e-5e75-4186-ad83-a1126e209235</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>
