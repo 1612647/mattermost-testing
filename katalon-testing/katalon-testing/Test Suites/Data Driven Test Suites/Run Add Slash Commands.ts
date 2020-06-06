@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Run Add Slash Commands</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a9100ab8-27a1-417e-9d38-dc29baff50fa</testSuiteGuid>
+   <testCaseLink>
+      <guid>bcf36942-741f-416e-b6e1-a37fcb7fd598</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data Driven Test Cases/Add Slash Commands</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>15b1e1bf-1be5-431c-ba76-5f4124323fb1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Slash Commands</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>d02f76af-9da7-4d29-8e34-0d5456136afb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>1c0137c7-9571-42e0-a336-892cd28f4bdb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>word</value>
+         <variableId>de93b260-637d-44f6-8e48-ff010ab5b446</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>reqUrl</value>
+         <variableId>8cc2da73-c160-455b-84a8-3ff1fee7fb73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postGet</value>
+         <variableId>b1ef8fbf-dd4c-46a5-9f02-535d20ef8935</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resUname</value>
+         <variableId>426d7ff0-52ff-4e75-bed5-2995d2bca317</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hint</value>
+         <variableId>f58b0996-5201-4d17-9685-05dcb22dc6a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>autocomp</value>
+         <variableId>63c82b48-9212-4a2e-aae7-5ea23263fac5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
