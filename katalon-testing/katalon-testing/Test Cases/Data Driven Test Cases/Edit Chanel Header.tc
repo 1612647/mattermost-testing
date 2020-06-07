@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Chanel Header</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86da6458-f748-4ccf-b452-938b245cb927</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9258cb9-9c92-4d6b-9f31-2fd0b0a81f66</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

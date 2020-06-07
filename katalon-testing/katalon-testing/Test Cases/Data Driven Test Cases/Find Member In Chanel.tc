@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find Member In Chanel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1eae223-babf-4b3c-8512-1c01ac073b60</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed146d4f-c6cd-42a0-910a-704917d46c9e</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>
