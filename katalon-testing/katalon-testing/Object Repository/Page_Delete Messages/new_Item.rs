@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>new_Item</name>
+   <tag></tag>
+   <elementGuidId>abf1e2a9-f826-4c5c-addf-3a83ecc7a904</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;postListContent&quot;]/div[1]/div[2]/div/div[last()]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;postListContent&quot;]/div[1]/div[2]/div/div[last()]</value>
+   </webElementXpaths>
+</WebElementEntity>
