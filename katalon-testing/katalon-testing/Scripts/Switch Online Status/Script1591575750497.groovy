@@ -16,19 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+List<TestObject> status = [findTestObject('Page_Switch Online Status/span_Away'), findTestObject(
+        'Object Repository/Page_Town Square - aa Mattermost/span_Do Not Disturb'), findTestObject('Page_Switch Online Status/span_Offline')
+    , findTestObject('Page_Switch Online Status/span_Online')]
+
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Switch Chanels/button_Switch Channels- CTRLK'))
+for (int i = 0; i < 4; i++) {
+    WebUI.click(findTestObject('Page_Switch Online Status/img__Avatar Avatar-lg'))
 
-WebUI.setText(findTestObject('Page_Switch Chanels/input_Type to find a channel Use  to browse_c1b80e'), 
-    'town')
+    WebUI.click(status[i])
 
-WebUI.sendKeys(findTestObject('Page_Switch Chanels/input_Type to find a channel Use  to browse_c1b80e'), 
-    Keys.chord(Keys.ENTER))
-
-WebUI.verifyElementNotPresent(findTestObject('Page_Switch Chanels/div_Type to find a channel Use  to browse  _55ea1f'), 
+	WebUI.verifyElementNotPresent(findTestObject('Page_Switch Online Status/ul_OnlineAwayDo Not DisturbDisables desktop_fd3496'), 
     0)
+
+    Thread.sleep(1000)
+}
 
 WebUI.closeBrowser()
 
