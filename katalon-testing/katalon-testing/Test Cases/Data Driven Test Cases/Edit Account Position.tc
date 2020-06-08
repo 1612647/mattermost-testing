@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Position</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71b8586e-31c2-41dc-866f-44334a380110</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>743c4492-22b5-4df3-84f3-0ec09cc4ed4e</id>
+      <masked>false</masked>
+      <name>position</name>
+   </variable>
+</TestCaseEntity>
