@@ -42,5 +42,3 @@ Thread.sleep(1000)
 
 WebUI.verifyNotEqual(WebUI.getUrl(), preUrl)
 
-WebUI.closeBrowser()
-

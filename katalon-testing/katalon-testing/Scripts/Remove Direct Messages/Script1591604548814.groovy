@@ -14,24 +14,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add Direct Messages'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Mark Unread Messages/span_rebeccaruiz'))
+WebUI.scrollToElement(findTestObject('Page_Remove Direct Messages/a_3'), 1)
 
-WebUI.scrollToElement(findTestObject('Page_Mark Unread Messages/p_consequatur aperiam magni dicta hic saepe_95a2e1'), 
-    0)
+//String removeItemId = WebUI.getAttribute(findTestObject('Page_Remove Direct Messages/a_3'), 'id')
 
-WebUI.mouseOver(findTestObject('Page_Mark Unread Messages/p_quo repellendus aut explicabo reiciendis _aafcad'))
+WebUI.mouseOver(findTestObject('Page_Remove Direct Messages/a_3'))
 
-WebUI.click(findTestObject('Page_Mark Unread Messages/button__CENTER_button_cp876yttnigi9xgkr7qwjnszsa'))
+WebUI.click(findTestObject('Page_Remove Direct Messages/btn_close_newItem'))
 
-WebUI.click(findTestObject('Page_Mark Unread Messages/span_Mark as Unread'))
+//String newActiveId = WebUI.getAttribute(findTestObject('Page_Remove Direct Messages/a_3'), 'id')
 
-WebUI.verifyElementPresent(findTestObject('Page_Mark Unread Messages/div_11 new messages since Thu Jun 04 at 2232'), 
-    0)
+WebUI.verifyElementNotPresent(findTestObject('Page_Remove Direct Messages/a_3'), 0)
 
 WebUI.closeBrowser()
 

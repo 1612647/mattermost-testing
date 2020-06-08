@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_rebeccaruiz</name>
+   <name>span_rebeccaruiz (2)</name>
    <tag></tag>
-   <elementGuidId>6bcb4168-700a-46c5-a278-a38b5185ce5d</elementGuidId>
+   <elementGuidId>0782c3a9-1fa8-462a-8829-b897c972c723</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

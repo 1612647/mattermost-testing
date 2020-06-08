@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - aa Mattermost/span_Town Square_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Page_Mark Unread Messages/span_Town Square_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - aa Mattermost/span_View Members'))
+WebUI.click(findTestObject('Page_Mark Unread Messages/span_View Members'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - aa Mattermost/div_CloseTown Square MembersSearch users1 -_b33493'), 
+WebUI.verifyElementPresent(findTestObject('Page_Mark Unread Messages/div_CloseTown Square MembersSearch users1 -_b33493'), 
     0)
 
 WebUI.closeBrowser()

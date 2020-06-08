@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_rebeccaruiz</name>
+   <name>span_rebeccaruiz (3)</name>
    <tag></tag>
    <elementGuidId>15dd5fb7-830c-4082-b2ea-026b6fbfd36c</elementGuidId>
    <selectorCollection>
