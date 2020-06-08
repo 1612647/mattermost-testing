@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Slash Commands</testDataId>
+         <testDataId>Data Files/Add Slash Commands</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
@@ -51,7 +51,7 @@
       <variableLink>
          <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>postGet</value>
+         <value>postUrl</value>
          <variableId>b1ef8fbf-dd4c-46a5-9f02-535d20ef8935</variableId>
       </variableLink>
       <variableLink>
@@ -69,7 +69,7 @@
       <variableLink>
          <testDataLinkId>15b1e1bf-1be5-431c-ba76-5f4124323fb1</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>autocomp</value>
+         <value>autoComp</value>
          <variableId>63c82b48-9212-4a2e-aae7-5ea23263fac5</variableId>
       </variableLink>
    </testCaseLink>
