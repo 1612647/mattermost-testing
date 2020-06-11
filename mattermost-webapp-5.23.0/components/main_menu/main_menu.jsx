@@ -324,14 +324,14 @@ class MainMenu extends React.PureComponent {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemExternalLink
-                        id='helpLink'
+                        id='helpLink1'
                         show={Boolean(this.props.helpLink)}
                         url={this.props.helpLink}
                         text={formatMessage({id: 'navbar_dropdown.help', defaultMessage: 'Help'})}
                         icon={this.props.mobile && <i className='fa fa-question'/>}
                     />
                     <Menu.ItemAction
-                        id='keyboardShortcuts'
+                        id='keyboardShortcuts1'
                         show={!this.props.mobile}
                         onClick={this.toggleShortcutsModal}
                         text={formatMessage({id: 'navbar_dropdown.keyboardShortcuts', defaultMessage: 'Keyboard Shortcuts'})}
@@ -351,7 +351,7 @@ class MainMenu extends React.PureComponent {
                         icon={this.props.mobile && <i className='fa fa-mobile'/>}
                     />
                     <Menu.ItemToggleModalRedux
-                        id='about'
+                        id='about1'
                         modalId={ModalIdentifiers.ABOUT}
                         dialogType={AboutBuildModal}
                         text={formatMessage({id: 'navbar_dropdown.about', defaultMessage: 'About {appTitle}'}, {appTitle: this.props.siteName || 'Mattermost'})}
@@ -360,7 +360,7 @@ class MainMenu extends React.PureComponent {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemAction
-                        id='logout'
+                        id='logout1'
                         onClick={this.handleEmitUserLoggedOutEvent}
                         text={formatMessage({id: 'navbar_dropdown.logout', defaultMessage: 'Log Out'})}
                         icon={this.props.mobile && <i className='fa fa-sign-out'/>}
