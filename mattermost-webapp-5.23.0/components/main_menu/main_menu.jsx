@@ -324,14 +324,14 @@ class MainMenu extends React.PureComponent {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemExternalLink
-                        id='helpLink1'
+                        id='helpLink'
                         show={Boolean(this.props.helpLink)}
                         url={this.props.helpLink}
                         text={formatMessage({id: 'navbar_dropdown.help', defaultMessage: 'Help'})}
                         icon={this.props.mobile && <i className='fa fa-question'/>}
                     />
                     <Menu.ItemAction
-                        id='keyboardShortcuts1'
+                        id='keyboardShortcuts'
                         show={!this.props.mobile}
                         onClick={this.toggleShortcutsModal}
                         text={formatMessage({id: 'navbar_dropdown.keyboardShortcuts', defaultMessage: 'Keyboard Shortcuts'})}
@@ -351,7 +351,21 @@ class MainMenu extends React.PureComponent {
                         icon={this.props.mobile && <i className='fa fa-mobile'/>}
                     />
                     <Menu.ItemToggleModalRedux
-                        id='about1'
+                        id='about'
+                        modalId={ModalIdentifiers.ABOUT}
+                        dialogType={AboutBuildModal}
+                        text={formatMessage({id: 'navbar_dropdown.about', defaultMessage: 'About {appTitle}'}, {appTitle: this.props.siteName || 'Mattermost'})}
+                        icon={this.props.mobile && <i className='fa fa-info'/>}
+                    />
+                    <Menu.ItemExternalLink
+                        id='nativeAppLink'
+                        show={this.props.appDownloadLink && !UserAgent.isMobileApp()}
+                        url={useSafeUrl(this.props.appDownloadLink)}
+                        text={formatMessage({id: 'navbar_dropdown.nativeApps', defaultMessage: 'Download Apps'})}
+                        icon={this.props.mobile && <i className='fa fa-mobile'/>}
+                    />
+                    <Menu.ItemToggleModalRedux
+                        id='about'
                         modalId={ModalIdentifiers.ABOUT}
                         dialogType={AboutBuildModal}
                         text={formatMessage({id: 'navbar_dropdown.about', defaultMessage: 'About {appTitle}'}, {appTitle: this.props.siteName || 'Mattermost'})}
@@ -360,7 +374,7 @@ class MainMenu extends React.PureComponent {
                 </Menu.Group>
                 <Menu.Group>
                     <Menu.ItemAction
-                        id='logout1'
+                        id='logout'
                         onClick={this.handleEmitUserLoggedOutEvent}
                         text={formatMessage({id: 'navbar_dropdown.logout', defaultMessage: 'Log Out'})}
                         icon={this.props.mobile && <i className='fa fa-sign-out'/>}
