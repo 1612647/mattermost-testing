@@ -8,7 +8,7 @@
    <dataFileGUID>b4a0ed2c-3e77-464d-93a0-d0cfdccf39b5</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null</data>
+   <data>.</data>
    <data>123</data>
    <data>abc</data>
    <data>%24%23%24%23%25</data>

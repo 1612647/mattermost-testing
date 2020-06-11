@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Team_4/button_user-1_style--none sidebar-header-dr_eabf2e'))
+WebUI.click(findTestObject('Object Repository/Page_Team_4/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.click(findTestObject('Page_Team_4/span_Manage Members'))
+WebUI.click(findTestObject('Page_Team_4/span_View Members'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Team_4/div_Search users1 - 1 member of 1 totaluser_b71e70'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Team_4/div_Search users1 - 1 member of 1 totaluser_b71e70'), 
     0)
 
 WebUI.closeBrowser()

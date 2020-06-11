@@ -8,21 +8,20 @@
    <dataFileGUID>46f9f9a7-6e0b-4e7c-a3b8-355c443c263c</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null null</data>
    <data>new+team newTeam</data>
    <data>new+team+_2 newteam123_</data>
-   <data>newteam+3 null</data>
-   <data>null newteam</data>
+   <data>newteam+3 newteam</data>
+   <data>newteam+4 newteam</data>
    <data>team+test teamtest</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>name</name>
-      <size>6</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>url</name>
-      <size>6</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

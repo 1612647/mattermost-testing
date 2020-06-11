@@ -9,45 +9,49 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>title1 desc1 123 http%3A%2F%2Flocalhost%3A6666 P uname1 null true</data>
+   <data>title2 desc2 456 http%3A%2F%2Flocalhost%3A6667 G uname2 null false</data>
+   <data>title3 desc3 789 http%3A%2F%2Flocalhost%3A6668 G uname4 null false</data>
+   <data>title4 desc4 abc http%3A%2F%2Flocalhost%3A6669 G uname3 null true</data>
+   <data>title4 desc5 df http%3A%2F%2Flocalhost%3A6665 P uname5 null false</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>title</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>description</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>word</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>reqUrl</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>postGet</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>resUname</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>hint</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>autocomp</name>
-      <size>1</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

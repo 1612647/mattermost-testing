@@ -8,10 +8,10 @@
    <dataFileGUID>e5cc8824-47b2-471c-ad09-ff850f27438d</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>tester01%40test.com tester01</data>
-   <data>null null</data>
-   <data>tester02 null</data>
-   <data>null tester03</data>
+   <data>user-1 SampleUs%40r-1</data>
+   <data>user-1 SampleUs%40r-1</data>
+   <data>user-1 SampleUs%40r-1</data>
+   <data>user-1 SampleUs%40r-1</data>
    <data>user-1 SampleUs%40r-1</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>

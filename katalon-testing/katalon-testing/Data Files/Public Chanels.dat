@@ -9,10 +9,10 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>true PublicChanelTest01 this+is+purpose this+is+header</data>
-   <data>false PublicChanelTest01 null null</data>
-   <data>false null this+is+purpose null</data>
-   <data>true null null this+is+header</data>
-   <data>null null null null</data>
+   <data>false PublicChanelTest02 this+is+purpose this+is+header</data>
+   <data>false PublicChanelTest03 this+is+purpose this+is+header</data>
+   <data>true PublicChanelTest04 this+is+purpose this+is+header</data>
+   <data>true PublicChanelTest05 this+is+purpose this+is+header</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>isPublic</name>

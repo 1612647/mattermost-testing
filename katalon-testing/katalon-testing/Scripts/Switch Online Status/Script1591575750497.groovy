@@ -16,15 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-List<TestObject> status = [findTestObject('Page_Switch Online Status/span_Away'), findTestObject(
-        'Object Repository/Page_Town Square - aa Mattermost/span_Do Not Disturb'), findTestObject('Page_Switch Online Status/span_Offline')
-    , findTestObject('Page_Switch Online Status/span_Online')]
+List<TestObject> status = [
+	findTestObject('Page_Switch Online Status/span_Away'), 
+	findTestObject('Page_Switch Online Status/span_Do Not Disturb'), 
+	findTestObject('Page_Switch Online Status/span_Offline'), 
+	findTestObject('Page_Switch Online Status/span_Online')]
 
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
 for (int i = 0; i < 4; i++) {
     WebUI.click(findTestObject('Page_Switch Online Status/img__Avatar Avatar-lg'))
+	
+    Thread.sleep(1000)
 
     WebUI.click(status[i])
 
