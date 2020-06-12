@@ -20,19 +20,20 @@ WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOr
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Add Flags/span_rebeccaruiz (1)'))
-switch(1+1){
-	case 2:
-		WebUI.scrollToElement(findTestObject('Page_Add Flags/div_rebeccaruiz2232quo repellendus aut expl_7c0c3b'), 0)
-		
-		WebUI.mouseOver(findTestObject('Page_Add Flags/div_rebeccaruiz2232quo repellendus aut expl_7c0c3b'))
-		
-		WebUI.click(findTestObject('Page_Add Flags/svg (1)'))
-		
-		WebUI.click(findTestObject('Page_Add Flags/svg (1)'))
-		
-		break;
-	default: 
-		break;
+
+switch (1 + 1) {
+    case 2:
+        WebUI.scrollToElement(findTestObject('Page_Add Flags/div_rebeccaruiz2232quo repellendus aut expl_7c0c3b'), 0)
+
+        WebUI.mouseOver(findTestObject('Page_Add Flags/div_rebeccaruiz2232quo repellendus aut expl_7c0c3b'))
+
+//        WebUI.click(findTestObject('Page_Add Flags/svg'))
+//
+//        WebUI.click(findTestObject('Page_Add Flags/svg'))
+
+        break
+    default:
+        break
 }
 
 WebUI.verifyEqual(1 + 1, 2)

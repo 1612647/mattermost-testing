@@ -46,20 +46,24 @@ WebUI.setText(findTestObject('Page_AddOutgoingWebhook/input_Description_descript
 
 WebUI.scrollToElement(findTestObject('Page_AddOutgoingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 0)
 
+WebUI.selectOptionByIndex(findTestObject('Page_AddOutgoingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'),
+	1)
+
+
 switch (contentType) {
     case 'form':
-        WebUI.selectOptionByValue(findTestObject('Page_AddOutgoingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 
-            '9cwgocg9zbroxrfcrtdkitpige', true)
-
+        WebUI.selectOptionByIndex(findTestObject('Page_AddOutgoingWebhook/select_applicationx-www-form-urlencodedappl_e429fe'), 
+            0)
         break
     case 'json':
-        WebUI.selectOptionByValue(findTestObject('Page_AddOutgoingWebhook/select_applicationx-www-form-urlencodedappl_e429fe'), 
-            'application/json', true)
+        WebUI.selectOptionByIndex(findTestObject('Page_AddOutgoingWebhook/select_applicationx-www-form-urlencodedappl_e429fe'), 
+            1)
 
         break
     default:
-        WebUI.selectOptionByValue(findTestObject('Page_AddOutgoingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 
-            '9cwgocg9zbroxrfcrtdkitpige', true)}
+        WebUI.selectOptionByIndex(findTestObject('Page_AddOutgoingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 
+            0)
+}
 
 WebUI.scrollToElement(findTestObject('Page_AddOutgoingWebhook/textarea_Trigger Words (One Per Line)_triggerWords'), 0)
 

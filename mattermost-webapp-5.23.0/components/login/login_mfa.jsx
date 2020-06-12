@@ -106,6 +106,30 @@ export default class LoginMfa extends React.PureComponent {
                             savingMessage={localizeMessage('login_mfa.submitting', 'Submitting...')}
                         />
                     </div>
+                    <div className={'form-group' + errorClass}>
+                        {serverError}
+                    </div>
+                    <div className={'form-group' + errorClass}>
+                        <LocalizedInput
+                            type='text'
+                            className='form-control'
+                            name='token'
+                            placeholder={{id: t('login_mfa.token'), defaultMessage: 'MFA Token'}}
+                            spellCheck='false'
+                            autoComplete='off'
+                            autoFocus={true}
+                            onChange={this.handleChange}
+                        />
+                    </div>
+                    <div className='form-group'>
+                        <SaveButton
+                            saving={this.state.saving}
+                            disabled={this.state.saving}
+                            onClick={this.handleSubmit}
+                            defaultMessage={localizeMessage('login_mfa.submit', 'Submit')}
+                            savingMessage={localizeMessage('login_mfa.submitting', 'Submitting...')}
+                        />
+                    </div>
                 </div>
             </form>
         );

@@ -39,13 +39,15 @@ WebUI.setText(findTestObject('Page_AddIncomingWebhook/input_Title_displayName'),
 
 WebUI.setText(findTestObject('Page_AddIncomingWebhook/input_Description_description'), description)
 
-WebUI.selectOptionByValue(findTestObject('Page_AddIncomingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 
-    '9cwgocg9zbroxrfcrtdkitpige', true)
+WebUI.selectOptionByIndex(findTestObject('Page_AddIncomingWebhook/select_--- Select a channel ---Off-TopicPub_c22433'), 
+    1, FailureHandling.STOP_ON_FAILURE)
 
 if (isLock == 'true') {
-	WebUI.scrollToElement(findTestObject('Page_AddIncomingWebhook/input_Lock to this channel_channelLocked'), 0)
-	WebUI.click(findTestObject('Page_AddIncomingWebhook/input_Lock to this channel_channelLocked'))
+    WebUI.scrollToElement(findTestObject('Page_AddIncomingWebhook/input_Lock to this channel_channelLocked'), 0)
+
+    WebUI.click(findTestObject('Page_AddIncomingWebhook/input_Lock to this channel_channelLocked'))
 }
+
 WebUI.scrollToElement(findTestObject('Page_AddIncomingWebhook/span_Save'), 0)
 
 WebUI.click(findTestObject('Page_AddIncomingWebhook/span_Save'))

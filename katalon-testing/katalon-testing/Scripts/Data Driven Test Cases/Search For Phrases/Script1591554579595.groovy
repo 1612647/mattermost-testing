@@ -23,11 +23,11 @@ WebUI.click(findTestObject('Page_Search For Phrases/span_rebeccaruiz'))
 
 WebUI.click(findTestObject('Page_Search For Phrases/svg'))
 
-WebUI.setText(findTestObject('Page_Search For Phrases/input_(Edit)_searchBox'), "\"" + keyword +"\"")
+WebUI.setText(findTestObject('Page_Search For Phrases/input_(Edit)_searchBox'), ('"' + keyword) + '"')
 
 WebUI.sendKeys(findTestObject('Page_Search For Phrases/input_(Edit)_searchBox'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementNotPresent(findTestObject('Page_Search For Phrases/span_No results found Try again'), 1)
+WebUI.verifyElementPresent(findTestObject('Page_Search For Phrases/div_Search Results'), 1)
 
 WebUI.closeBrowser()
 
