@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Private Chanels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cca694f5-87ae-43ca-91e6-c0251cd42dd6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3597a9d6-8edb-4d47-bc5d-cb7ba1be591e</id>
+      <masked>false</masked>
+      <name>isPublic</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5233b1bf-8213-4de2-8b72-4c0124ae3e7f</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a70a624-d70a-4625-b1e2-1cc987a87f3e</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad9a5423-7a45-4e39-86e9-e4a7a1ff2040</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>

@@ -28,5 +28,3 @@ WebUI.click(findTestObject('Page_Login/span_Sign in'))
 
 WebUI.verifyElementNotPresent(findTestObject('Page_Login/label_Enter a valid email or username andor password'), 1)
 
-WebUI.closeBrowser()
-

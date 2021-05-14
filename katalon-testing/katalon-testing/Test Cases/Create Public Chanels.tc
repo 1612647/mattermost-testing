@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Public Chanels</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa3d621b-efbe-4e84-a000-aa97a1457e67</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>0f086a8d-71a0-497e-b991-3bd5b62dfefd</id>
+      <masked>false</masked>
+      <name>isPublic</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>685a9311-0453-4b35-b145-33e491d29f82</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3a35dfe-73f2-40de-87b5-cafafbf0809c</id>
+      <masked>false</masked>
+      <name>purpose</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99c940de-e35d-4358-8c99-d29198e3f175</id>
+      <masked>false</masked>
+      <name>header</name>
+   </variable>
+</TestCaseEntity>
