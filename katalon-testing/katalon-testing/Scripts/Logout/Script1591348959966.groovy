@@ -18,17 +18,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_ Logout/svg'), 0)
+WebUI.scrollToElement(findTestObject('Page_ About_Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'), 0)
 
-WebUI.click(findTestObject('Page_ Logout/svg'))
+WebUI.click(findTestObject('Page_ About_Mattermost/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.scrollToElement(findTestObject('Page_ Logout/span_Log Out'), 0)
+WebUI.scrollToElement(findTestObject('Page_ About_Mattermost/span_About Mattermost'), 0)
 
-WebUI.click(findTestObject('Page_ Logout/span_Log Out'))
+WebUI.click(findTestObject('Page_ About_Mattermost/span_About Mattermost'))
 
-Thread.sleep(1000)
-
-WebUI.verifyEqual(WebUI.getUrl(), 'http://localhost:8065/login')
+WebUI.verifyElementPresent(findTestObject('Page_ About_Mattermost/div_CloseAbout MattermostMattermost Team Ed_b1a905'), 
+    1)
 
 WebUI.closeBrowser()
 
