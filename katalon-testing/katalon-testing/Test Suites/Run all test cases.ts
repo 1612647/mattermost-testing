@@ -14,7 +14,7 @@
       <guid>fa27b014-5f2b-453c-b690-7c9788a2cc2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User Login</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/User Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>78965324-8e1c-486d-9273-1c7f5b654c86</id>
@@ -41,7 +41,7 @@
       <guid>9a3d60e6-1c51-4eba-8f39-51e35ed479ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Public Chanels</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/Create Public Chanels</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fda261d6-1b47-4471-a51a-fe1c200a03d1</id>

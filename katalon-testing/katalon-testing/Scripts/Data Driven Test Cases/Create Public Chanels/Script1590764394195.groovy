@@ -14,12 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_Create_Chanel/btn_Add private chanels'), 0)
+WebUI.scrollToElement(findTestObject('Page_Create_Chanel/btn_Add public chanels'), 0)
 
-WebUI.click(findTestObject('Page_Create_Chanel/btn_Add private chanels'))
+WebUI.click(findTestObject('Page_Create_Chanel/btn_Add public chanels'))
 
 if (isPublic == 'true') {
     WebUI.click(findTestObject('Page_Create_Chanel/div_Public - Anyone can join this channel'))

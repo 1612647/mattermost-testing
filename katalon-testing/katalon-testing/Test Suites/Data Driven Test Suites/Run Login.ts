@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Run Create New Teams</name>
+   <name>Run Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,32 +9,32 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>783820e3-5940-4ef3-a501-838e8bf2f431</testSuiteGuid>
+   <testSuiteGuid>a5a6b7f0-250b-4d29-abbe-11bbec2c1b2b</testSuiteGuid>
    <testCaseLink>
-      <guid>063cd9af-b50b-44e5-858a-7e1d5ea373af</guid>
+      <guid>fa27b014-5f2b-453c-b690-7c9788a2cc2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Team</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/User Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>939f025d-8405-4b61-992e-45985b900b6b</id>
+         <id>78965324-8e1c-486d-9273-1c7f5b654c86</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Teams</testDataId>
+         <testDataId>Data Files/User Accounts</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>939f025d-8405-4b61-992e-45985b900b6b</testDataLinkId>
+         <testDataLinkId>78965324-8e1c-486d-9273-1c7f5b654c86</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>name</value>
-         <variableId>bfa34ddb-dcfd-42da-a957-3a3b955fd635</variableId>
+         <value>unameOrEmail</value>
+         <variableId>7805109e-614c-496a-a30d-a79ecc85fbc1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>939f025d-8405-4b61-992e-45985b900b6b</testDataLinkId>
+         <testDataLinkId>78965324-8e1c-486d-9273-1c7f5b654c86</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>url</value>
-         <variableId>97ff7a41-f1c8-4042-bee4-fe30746699f6</variableId>
+         <value>password</value>
+         <variableId>08c7b652-5af2-4eaf-98bc-e295fce2172d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
