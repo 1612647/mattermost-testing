@@ -12,30 +12,31 @@
    <data>null null null null null</data>
    <data>title null json null null</data>
    <data>dsd null null d null</data>
+   <data>tit d json null http%3A%2F%2Flocalhost%3A9999</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>title</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>description</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>contentType</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>words</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>callbackUrl</name>
-      <size>4</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
