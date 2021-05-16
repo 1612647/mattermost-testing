@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Run Add Outgoing Webhook</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>ee875259-863a-4f9a-afb6-2bf1d5a7aac4</testSuiteGuid>
+   <testCaseLink>
+      <guid>eccea4b8-9d82-44a3-9634-d5f37e2fe519</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add Outgoing Webhook</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0a21f815-c4dc-4c2a-8055-fe634a380ceb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Outgoing Webhook</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0a21f815-c4dc-4c2a-8055-fe634a380ceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>1b81c936-817e-4ed9-bf38-6487aa525806</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a21f815-c4dc-4c2a-8055-fe634a380ceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>2530cf10-0f03-463d-a514-886b1847cb2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a21f815-c4dc-4c2a-8055-fe634a380ceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>contentType</value>
+         <variableId>8893dcb7-51a4-4561-bcb8-745c82f775aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a21f815-c4dc-4c2a-8055-fe634a380ceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>words</value>
+         <variableId>fb6c4d04-d3b5-48a0-9dc7-f84f6f64c0fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0a21f815-c4dc-4c2a-8055-fe634a380ceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>callbackUrl</value>
+         <variableId>62e9c9ab-dcbc-41bc-af92-317e0113dd86</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

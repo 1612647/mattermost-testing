@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Outgoing Webhook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97f7da1a-0d26-44bd-b298-bbcecdcadfb1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b81c936-817e-4ed9-bf38-6487aa525806</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2530cf10-0f03-463d-a514-886b1847cb2f</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8893dcb7-51a4-4561-bcb8-745c82f775aa</id>
+      <masked>false</masked>
+      <name>contentType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb6c4d04-d3b5-48a0-9dc7-f84f6f64c0fa</id>
+      <masked>false</masked>
+      <name>words</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62e9c9ab-dcbc-41bc-af92-317e0113dd86</id>
+      <masked>false</masked>
+      <name>callbackUrl</name>
+   </variable>
+</TestCaseEntity>
