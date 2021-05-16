@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Incoming Webhook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61eda260-92a4-47c5-880c-e550de1e4527</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a6fbe2c-150f-4946-aa72-4f1781751ff4</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>594c71c1-d6a1-4ccf-8513-1e662d76c811</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'false'</defaultValue>
+      <description></description>
+      <id>43e42a92-7b95-44c8-8227-947842021b24</id>
+      <masked>false</masked>
+      <name>isLock</name>
+   </variable>
+</TestCaseEntity>
