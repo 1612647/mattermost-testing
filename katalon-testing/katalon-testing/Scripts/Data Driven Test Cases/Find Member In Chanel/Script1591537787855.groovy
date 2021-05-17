@@ -19,11 +19,18 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ViewChanelInfo/span_Town Square_channelHeaderDropdownIcon'))
+WebUI.scrollToElement(findTestObject('Page_ Edit Chanels/button_user-1_style--none sidebar-header-dr_eabf2e'), 
+    0)
 
-WebUI.click(findTestObject('Page_ViewChanelInfo/span_View Info'))
+WebUI.click(findTestObject('Page_ Edit Chanels/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ViewChanelInfo/div_CloseAboutTown SquarePurposePost messag_c8cbad'), 1)
+WebUI.click(findTestObject('Page_ Edit Chanels/span_Manage Members'))
+
+WebUI.setText(findTestObject('Page_ Edit Chanels/input_Search users_searchUsersInput'), 
+    keyword)
+
+WebUI.verifyElementPresent(findTestObject('Page_ Edit Chanels/div_user-1 - Victor Welch (5454)user-1sampl_6453b1'), 
+    1)
 
 WebUI.closeBrowser()
 
