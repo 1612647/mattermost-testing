@@ -14,7 +14,7 @@
       <guid>eccea4b8-9d82-44a3-9634-d5f37e2fe519</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add Outgoing Webhook</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/Add Outgoing Webhook</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0a21f815-c4dc-4c2a-8055-fe634a380ceb</id>
