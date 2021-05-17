@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Incoming Webhook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>796dfc58-e6a8-48de-8853-1cf7cde10ce9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4543e421-a7a2-4cdb-983f-f0b2a775e8b3</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>
