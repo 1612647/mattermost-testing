@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ediit Account Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62c680bc-1f52-4529-b56e-ac66b53ae564</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2adfa373-9fa7-4fb3-8642-9dd780fef578</id>
+      <masked>false</masked>
+      <name>newEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36f68d09-48ba-4837-8dad-15217c7b6905</id>
+      <masked>false</masked>
+      <name>confirmEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>305c88cd-e665-4e36-b396-9b0c1258ea95</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

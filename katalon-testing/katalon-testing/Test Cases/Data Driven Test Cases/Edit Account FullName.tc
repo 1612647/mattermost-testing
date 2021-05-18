@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account FullName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8f02ad0-a0b9-43ba-95e1-ba2eda2cded9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>86db670b-ad8a-4b24-ab6b-edc9e4e81dfe</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df0910df-efdc-4b71-8e93-3c34074a3997</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>
