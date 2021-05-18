@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Messages From Users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af365b3a-86fd-410c-8b6d-a733fcefddb5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05757881-36bd-4c60-866b-a82d6af892c0</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>

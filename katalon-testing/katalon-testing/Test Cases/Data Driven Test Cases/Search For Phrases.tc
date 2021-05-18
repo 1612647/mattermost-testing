@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search For Phrases</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46f74fbf-40cb-4c4d-a5a2-3f76749fef7d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>339ba668-b9a9-4630-8cb0-5ff8e6c02383</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>
