@@ -19,28 +19,12 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOrEmail') : 'user-1', ('password') : 'SampleUs@r-1'], 
     FailureHandling.STOP_ON_FAILURE)
 
-String preUrl = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/Page_Town Square - aa Mattermost/span_Town Square_channelHeaderDropdownIcon'))
 
-WebUI.click(findTestObject('Page_Add Direct Messages/span_'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - aa Mattermost/span_View Members'))
 
-WebUI.sendKeys(findTestObject('Page_Add Direct Messages/input_Search and add members_react-select-2-input'), Keys.chord(
-        Keys.DOWN))
-
-WebUI.sendKeys(findTestObject('Page_Add Direct Messages/input_Search and add members_react-select-2-input'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Page_Add Direct Messages/input_Search and add members_react-select-2-input'), Keys.chord(
-        Keys.DOWN))
-
-WebUI.sendKeys(findTestObject('Page_Add Direct Messages/input_Search and add members_react-select-2-input'), Keys.chord(
-        Keys.ENTER))
-
-WebUI.sendKeys(findTestObject('Page_Add Direct Messages/input_Search and add members_react-select-2-input'), Keys.chord(
-        Keys.ENTER))
-
-Thread.sleep(1000)
-
-WebUI.verifyNotEqual(WebUI.getUrl(), preUrl)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Town Square - aa Mattermost/div_CloseTown Square MembersSearch users1 -_b33493'), 
+    0)
 
 WebUI.closeBrowser()
 
