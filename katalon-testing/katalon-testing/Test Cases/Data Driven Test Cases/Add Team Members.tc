@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Team Members</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df2d7f9a-e4fe-4a99-b4b9-339c4f851abe</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fca8139d-4bd1-45c0-9533-8f5991134969</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+</TestCaseEntity>
