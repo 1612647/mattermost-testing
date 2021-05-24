@@ -8,11 +8,11 @@
    <dataFileGUID>d70b6653-b932-486b-a257-e8f9acf3a316</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null null null</data>
+   <data>te descr true</data>
    <data>a b true</data>
-   <data>test desc null</data>
-   <data>test1 null null</data>
-   <data>test2 asd false</data>
+   <data>test desc false</data>
+   <data>test1 desci true</data>
+   <data>test2 asd true</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>title</name>

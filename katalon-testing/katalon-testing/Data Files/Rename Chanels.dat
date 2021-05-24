@@ -8,13 +8,15 @@
    <dataFileGUID>fb2a704b-4cf6-48d9-8a36-abf38f902400</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>null</data>
+   <data>xxx123</data>
    <data>1234</data>
    <data>chanel+name_1</data>
+   <data>chanel+name_2</data>
+   <data>chanel+name_3</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>name</name>
-      <size>3</size>
+      <size>5</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
