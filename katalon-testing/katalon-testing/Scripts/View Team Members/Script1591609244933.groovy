@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Data Driven Test Cases/User Login'), [('unameOr
 
 WebUI.click(findTestObject('Object Repository/Page_Team_4/button_user-1_style--none sidebar-header-dr_eabf2e'))
 
-WebUI.click(findTestObject('Page_Team_4/span_View Members'))
+WebUI.click(findTestObject('Page_Team_4/span_Manage Members'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Team_4/div_Search users1 - 1 member of 1 totaluser_b71e70'), 
     0)

@@ -14,7 +14,7 @@
       <guid>a8094440-b111-419a-8b74-d484a49be821</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Ediit Account Email</testCaseId>
+      <testCaseId>Test Cases/Data Driven Test Cases/Ediit Account Email</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>201cb2aa-2ab5-4c70-aad8-1e72470980fe</id>

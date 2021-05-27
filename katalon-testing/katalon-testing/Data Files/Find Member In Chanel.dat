@@ -8,10 +8,10 @@
    <dataFileGUID>dcd33268-9d24-4d55-a61f-33542d53595a</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>.</data>
-   <data>123213</data>
-   <data>abc</data>
-   <data>%25%24%25%24%25</data>
+   <data>u</data>
+   <data>us</data>
+   <data>use</data>
+   <data>user</data>
    <data>user</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
