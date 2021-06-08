@@ -11,7 +11,7 @@
     "cypress-wait-until": "1.6.1",
     "express": "4.17.1",
     "lodash": "4.17.15",
-    "merge-deep": "3.0.2",
+    "merge-deep": "3.0.3",
     "mocha": "7.0.1",
     "mocha-junit-reporters": "1.23.6",
     "mocha-multi-reporters": "1.1.7",
